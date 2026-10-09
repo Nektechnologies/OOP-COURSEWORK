@@ -1,0 +1,27 @@
+# OOP Coursework — Hostel Charging System
+
+Student:MWESIGWA NEKAMIA
+Registration: VU-BIT-2511-0560-EVE
+Module:1301 ST — Object Oriented Programming
+
+ Scenario
+
+- Business: Hostel
+- Abstract class: `Tenant`
+- Subclasses: `ResidentTenant` (450,000/month), `ShortStayTenant` (25,000/night)
+- Discount: 11% for residents paying 4 or more months at once
+- Report sort: Charge, highest first
+
+Files
+
+- `Chargeable.java` — interface
+- `InvalidTenantException.java` — custom exception
+- `Tenant.java` — abstract class
+- `ResidentTenant.java` — first subclass
+- `ShortStayTenant.java` — second subclass
+- `Manager.java` — record manager
+- `InputHelper.java` — robust input helper
+- `Main.java` — menu-driven entry point
+ How to Run
+javac *.java
+java Main
